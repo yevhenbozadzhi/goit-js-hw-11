@@ -6,8 +6,10 @@ import {
   showLoader,
   hideLoader,
 } from './js/render-functions.js';
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
+
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+
 
 const form = document.querySelector('.form');
 const input = form.elements['search-text'];

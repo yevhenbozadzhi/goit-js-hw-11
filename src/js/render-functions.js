@@ -43,15 +43,15 @@ export function createGallery(images) {
   lightbox.refresh(); 
 }
 
+export function showLoader() {
+  document.querySelector('.loader').style.display = 'block';
+}
+
+export function hideLoader() {
+  document.querySelector('.loader').style.display = 'none';
+}
 
 export function clearGallery() {
   galleryContainer.innerHTML = '';
 }
 
-export function showLoader() {
-  loader.classList.remove('hidden');
-}
-
-export function hideLoader() {
-  loader.classList.add('hidden');
-}
